@@ -5,7 +5,7 @@ public class Main {
     Persona referencia = manuel;
     System.out.println("Hash de manuel: " + manuel.hashCode());
     System.out.println("Hash de copia: " + copia.hashCode());
-    System.out.println("Hash de referencia: " + referencia.hashCode());
+
     ListaB listaB = new ListaB();
     listaB.insertarPersona(manuel);
     listaB.insertarPersona(copia);
